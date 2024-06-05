@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCP-008</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .header {
+            background: #a00;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #666 3px solid;
+        }
+        .header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 24px;
+        }
+        .warning {
+            background: #ff3333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border: 2px solid #800;
+            margin-top: 20px;
+        }
+        .content {
+            background: #fff;
+            padding: 20px;
+            border: 2px solid #ddd;
+            margin-top: 20px;
+        }
+        .rating {
+            float: right;
+            font-size: 18px;
+            background: #ddd;
+            padding: 5px 10px;
+            border: 1px solid #aaa;
+            margin-top: -70px;
+        }
+        .rating .plus, .rating .minus {
+            cursor: pointer;
+            padding: 0 10px;
+        }
+        .special-container {
+            border: 1px solid #888;
+            padding: 10px;
+            margin: 20px 0;
+            background: #ffe6e6;
+        }
+        .description {
+            border: 1px solid #888;
+            padding: 10px;
+            background: #f9f9f9;
+        }
+        .diagram {
+            float: right;
+            margin: 10px;
+            border: 1px solid #aaa;
+            padding: 5px;
+            background: #fff;
+        }
+        .footer {
+            clear: both;
+            margin-top: 20px;
+            text-align: center;
+            padding: 10px 0;
+            background: #ddd;
+            border-top: 1px solid #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>SCP-008</h1>
+    </div>
+    <div class="container">
+        <div class="rating">
+            Rating: +1103 <span class="plus">+</span> <span class="minus">-</span>
+        </div>
+        <div class="warning">
+            <h2>BY ORDER OF THE OVERSEER COUNCIL</h2>
+            <p>THIS FILE IS SUBJECT TO LEVEL 4 CLASSIFICATION</p>
+            <p>== LEVEL 4 CLEARANCE IS REQUIRED ==</p>
+        </div>
+        <div class="content">
+            <p>- Security clearance adequate. Accessing file...</p>
+            <div class="diagram">
+                <img src="diagram.png" alt="Diagram of SCP-008" width="200">
+                <p>Ribbon diagram illustrating tertiary structure of SCP-008. Primary amino acid sequence information has been redacted.</p>
+            </div>
+            <h3>Item #: SCP-008</h3>
+            <h4>Object Class: Euclid</h4>
+            <div class="special-container">
+                <h4>Special Containment Procedures:</h4>
+                <p>SCP-008 samples have been deemed Class V extreme biological hazards, and all related protocols apply. Incineration and irradiation measures will be deployed in the event of political or military action which may result in the facility being dismantled; a power failure; or zero communications from operatives or outside channels during any given eight hour period.</p>
+                <p>The quarantine period for operatives leaving the facility is four months. If a breach has occurred, incineration and irradiation measures shall be deployed. It should be the policy of all G2 sites to not prepare an evacuation procedure.</p>
+            </div>
+            <div class="description">
+                <h4>Description:</h4>
+                <p>SCP-008 is a complex prion, samples of which are stored in each of the known G2 sites. Research into SCP-008 is highly classified and primarily aimed at preventing research which may lead to the synthesis of SCP-008 in the distant future. Traits of the SCP-008 prion include:</p>
+                <ul>
+                    <li>100% infectiousness.</li>
+                    <li>100% lethality.</li>
+                    <li>Transmission through exposed mucous membranes and all bodily fluids.</li>
+                    <li>Not airborne or waterborne.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2024 SCP Foundation</p>
+            <a href="https://example.com">Example Link</a>
+        </div>
+    </div>
+</body>
+</html>
