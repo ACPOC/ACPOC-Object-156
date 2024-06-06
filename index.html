@@ -94,6 +94,11 @@
             text-align: center;
             text-transform: bold;
         }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
         .footer {
             clear: both;
             margin-top: 20px;
@@ -130,6 +135,7 @@
             </div>
             <h3>ACP Object #: 156</h3>
             <h4>Object Class: Euclid</h4>
+            <div class="clearfix"></div>
             <div class="special-container">
                 <h4>Special Containment Procedures:</h4>
                 <p>SCP-008 samples have been deemed Class V extreme biological hazards, and all related protocols apply. Incineration and irradiation measures will be deployed in the event of political or military action which may result in the facility being dismantled; a power failure; or zero communications from operatives or outside channels during any given eight hour period.</p>
