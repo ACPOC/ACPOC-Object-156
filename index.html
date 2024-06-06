@@ -24,24 +24,29 @@
             border-bottom: #666 3px solid;
             display: flex; 
             align-items: center;
+            justify-content: center;
+            position: relative;
         }
         .header img.header-image {
             width: 150px; 
             height: auto;
             margin-right: 20px;
             object-fit: contain;
+            position: absolute;
+            left: 30px;
         }
-        .header h1 {
+        .header-text {
+            text-align: center;
+        }
+        .header-text h1 {
             text-transform: uppercase;
             margin: 0;
             font-size: 24px;
-            text-align: center
         }
-        .header h2 {
+        .header-text h2 {
             font-weight: bold;
             margin: 0;
             font-size: 16px;
-            text-align: center;
         }
         .warning {
             background: #ff3333;
@@ -100,7 +105,7 @@
 <body>
     <div class="header">
         <img src="US.png" alt="Logo" class="header-image">
-        <div>
+        <div class="header-text">
             <h1>Advanced Containment Procedure Object Catalogue</h1>
             <h2>Courtesy of the United States Government</h2>
         </div>
