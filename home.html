@@ -78,6 +78,26 @@
             background: #9c9a9a;
             text-align: left;
                 }
+          }
+        .column-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .column {
+            width: 45%; /* Adjust width as needed */
+            list-style-type: none;
+            padding: 0;
+        }
+        .column li {
+            margin-bottom: 10px;
+        }
+        .column a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .column a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -99,7 +119,8 @@
             </div>
                 <div class="list">
                 <p>ACP Objects 1-200:</p>
-                <ul>
+                      <div class="column-container">
+            <ul class="column">
                     <li><a href="https://acpoc.github.io/ACPOC-Object-156/404">Object-001</a></li>
                     <li><a href="https://acpoc.github.io/ACPOC-Object-156/404">Object-002</a></li>
                     <li><a href="https://acpoc.github.io/ACPOC-Object-156/404">Object-003</a></li>
@@ -200,6 +221,8 @@
 <li><a href="https://acpoc.github.io/ACPOC-Object-156/404">Object-098</a></li>
 <li><a href="https://acpoc.github.io/ACPOC-Object-156/404">Object-099</a></li>
 <li><a href="https://acpoc.github.io/ACPOC-Object-156/404">Object-100</a></li>
+                        </ul>
+            <ul class="column">
 <li><a href="https://acpoc.github.io/ACPOC-Object-156/404">Object-101</a></li>
 <li><a href="https://acpoc.github.io/ACPOC-Object-156/404">Object-102</a></li>
 <li><a href="https://acpoc.github.io/ACPOC-Object-156/404">Object-103</a></li>
@@ -303,6 +326,8 @@
                 </ul>
             </div>
         </div>
+        </div>
+    </div>
         <div class="footer">
             <p>The official national website dedicated to cataloguing various anomalous and </p>
             <p>classified samples held by the United States government.</p>
