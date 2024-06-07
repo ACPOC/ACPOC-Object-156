@@ -57,6 +57,7 @@
             margin-top: 20px;
         }
         .content {
+            display: none; /* Initially hide the content */
             background: #fff;
             padding: 20px;
             border: 2px solid #ddd;
@@ -91,6 +92,17 @@
             background: #ddd;
             border-top: 1px solid #aaa;
         }
+        .show-content-link {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: #333;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -106,21 +118,22 @@
             <h2>BY ORDER OF THE OVERSEER COUNCIL</h2>
             <p>THIS FILE IS SUBJECT TO LEVEL 4 CLASSIFICATION</p>
             <p>== LEVEL 4 CLEARANCE IS REQUIRED ==</p>
+            <a href="#" class="show-content-link" id="showContentLink">Show Content</a>
         </div>
-        <div class="content">
+        <div class="content" id="content">
             <p>- Security clearance adequate. Accessing file...</p>
-                <h3>ACP Object #: 156</h3>
-                <h4>Object Class: Weapon of Mass Destruction</h4>
-                <div class="diagram">
-                    <img src="Microscopic view of a sample of ACP 156.jpg" alt="Diagram of SCP-008" width="200">
-                    <p>Microscopic view of a sample </p>
-                    <p>of object 156.</p>
-                </div>
-                <div class="special-container">
-                    <h4>Special Containment Procedures:</h4>
-                    <p>SCP-008 samples have been deemed Class V extreme biological hazards, and all related protocols apply. Incineration and irradiation measures will be deployed in the event of political or military action which may result in the facility being dismantled; a power failure; or zero communications from operatives or outside channels during any given eight hour period.</p>
-                    <p>The quarantine period for operatives leaving the facility is four months. If a breach has occurred, incineration and irradiation measures shall be deployed. It should be the policy of all G2 sites to not prepare an evacuation procedure.</p>          
-                </div>
+            <h3>ACP Object #: 156</h3>
+            <h4>Object Class: Weapon of Mass Destruction</h4>
+            <div class="diagram">
+                <img src="Microscopic view of a sample of ACP 156.jpg" alt="Diagram of SCP-008" width="200">
+                <p>Microscopic view of a sample </p>
+                <p>of object 156.</p>
+            </div>
+            <div class="special-container">
+                <h4>Special Containment Procedures:</h4>
+                <p>SCP-008 samples have been deemed Class V extreme biological hazards, and all related protocols apply. Incineration and irradiation measures will be deployed in the event of political or military action which may result in the facility being dismantled; a power failure; or zero communications from operatives or outside channels during any given eight hour period.</p>
+                <p>The quarantine period for operatives leaving the facility is four months. If a breach has occurred, incineration and irradiation measures shall be deployed. It should be the policy of all G2 sites to not prepare an evacuation procedure.</p>
+            </div>
             <div class="description">
                 <h4>Description:</h4>
                 <p>SCP-008 is a complex prion, samples of which are stored in each of the known G2 sites. Research into SCP-008 is highly classified and primarily aimed at preventing research which may lead to the synthesis of SCP-008 in the distant future. Traits of the SCP-008 prion include:</p>
@@ -137,5 +150,12 @@
             <a href="https://example.com">Example Link</a>
         </div>
     </div>
+    <script>
+        document.getElementById('showContentLink').addEventListener('click', function(event) {
+            event.preventDefault();
+            document.getElementById('content').style.display = 'block';
+            this.style.display = 'none';
+        });
+    </script>
 </body>
 </html>
