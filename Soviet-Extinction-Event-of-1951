@@ -4,142 +4,127 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advanced Containment Procedure Object Catalogue</title>
+  <title>Soviet Extinction Event of 1951 - Wikipedia</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f4f4f4;
       margin: 0;
       padding: 0;
     }
 
     .container {
-      width: 60%;
+      width: 80%;
       margin: auto;
-      overflow: hidden;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
     .header {
-      background: #a00;
-      color: #fff;
-      padding: 30px;
-      min-height: 70px;
-      border-bottom: #666 3px solid;
       display: flex;
       align-items: center;
-      justify-content: center;
-      position: relative;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
     }
 
-    .header img.header-image {
-      width: 112px;
+    .header img {
+      width: 50px;
       height: auto;
       margin-right: 20px;
-      object-fit: contain;
-      position: absolute;
-      left: 200px;
     }
 
-    .header-text {
-      text-align: center;
-    }
-
-    .header-text h1 {
-      text-transform: uppercase;
+    .header h1 {
+      font-size: 28px;
       margin: 0;
-      font-size: 24px;
-    }
-
-    .header-text h2 {
-      font-weight: bold;
-      margin: 0;
-      font-size: 16px;
     }
 
     .content {
-      background: #fff;
-      padding: 20px;
-      border: 2px solid #ddd;
-      margin-top: 20px;
+      display: flex;
     }
 
-    .description,
-    .list {
-      border: 1px solid #888;
-      padding: 10px;
-      background: #f9f9f9;
-      text-align: left;
+    .sidebar {
+      width: 20%;
+      margin-right: 20px;
+    }
+
+    .main-content {
+      width: 80%;
+    }
+
+    .main-content h2 {
+      font-size: 24px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .main-content p {
+      line-height: 1.6;
     }
 
     .footer {
-      clear: both;
       text-align: center;
       padding: 10px 0;
-      background: #ddd;
-      border-top: 1px solid #aaa;
+      background: #f9f9f9;
+      border-top: 1px solid #ddd;
+      margin-top: 20px;
+      font-size: 14px;
     }
 
-    .intro {
-      text-align: center;
-      font-weight: bold;
-    }
-
-    .column-container {
-      display: flex;
-      justify-content: space-between;
-    }
-
-    .column {
-      width: 45%;
-      /* Adjust width as needed */
-      list-style-type: none;
-      padding: 0;
-    }
-
-    .column li {
-      margin-bottom: 10px;
-    }
-
-    .column a {
+    a {
+      color: #0645ad;
       text-decoration: none;
-      color: #007BFF;
     }
 
-    .column a:hover {
+    a:hover {
       text-decoration: underline;
     }
   </style>
 </head>
 
 <body>
-  <div class="header">
-    <img src="US.png" alt="Logo" class="header-image">
-    <div class="header-text">
-      <h1>Advanced Containment Procedure Object Catalogue</h1>
-      <h2>Courtesy of the United States Government</h2>
+  <div class="container">
+    <div class="header">
+      <img src="soviet.png" alt="Logo">
+      <h1>Soviet Extinction Event of 1951</h1>
+    </div>
+    <div class="content">
+      <div class="sidebar">
+        <h3>Contents</h3>
+        <ul>
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#background">Background</a></li>
+          <li><a href="#event-details">Event Details</a></li>
+          <li><a href="#theories">Theories</a></li>
+          <li><a href="#aftermath">Aftermath</a></li>
+        </ul>
+      </div>
+      <div class="main-content">
+        <div class="intro">
+          <h2>Overview</h2>
+          <p>This page is dedicated to the comprehensive analysis and documentation of the Soviet Extinction Event of 1951.
+            This catastrophic event led to the sudden and mysterious extinction of a significant portion of the Soviet population.
+            Below, you'll find detailed accounts, theories, and evidence surrounding the event, compiled by leading historians
+            and scientists. Due to the sensitive nature of the information, some sections require higher clearance to access.</p>
+        </div>
+        <h2 id="background">Background</h2>
+        <p>[Background information about the Soviet Union leading up to 1951]</p>
+        <h2 id="event-details">Event Details</h2>
+        <p>[Detailed description of the event, including dates, locations, and key figures involved]</p>
+        <h2 id="theories">Theories</h2>
+        <p>[Discussion of various theories that have been proposed to explain the event]</p>
+        <h2 id="aftermath">Aftermath</h2>
+        <p>[Information on the aftermath of the event and its impact on the world]</p>
+      </div>
     </div>
   </div>
-  <div class="container">
-    <div class="content">
-      <div class="intro">
-        <h2>HOME</h2>
-      </div>
-      <div class="description">
-        <h4>Welcome,</h4>
-        <p>This is the central page of the ACPOC. Below this paragraph is a list of multiple anomalous and/or
-          potentially dangerous objects that are being contained within a military compound in <b>(CLASSIFIED LOCATION)</b>.
-          These items have been cataloged on paper since 1939, and ever since the invention of the home computing
-          machine in 1953, their descriptive files and containment procedures have been transferred to the internet.
-          Some items on this list require higher clearance to access and read than others.</p>
-        </div>
-      </div>
-    </div>
-        <div class="footer">
-            <p>The official national website dedicated to cataloguing various anomalous and </p>
-            <p>classified samples held by the United States government.</p>
-            <a href="https://acpoc.github.io/ACPOC-Object-156/home">Home Page</a>
-        </div>
-    </div>
+  <div class="footer">
+    <p>You have visited this site from a link found on https://acpoc.github.io/ACPOC-Object-156/index.</p>
+    <p>If you wish to return to that domain, click the link below:</p>
+    <a href="https://acpoc.github.io/ACPOC-Object-156/index">Return</a>
+  </div>
 </body>
-</html>
 
+</html>
