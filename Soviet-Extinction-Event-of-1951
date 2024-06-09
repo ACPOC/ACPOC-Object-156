@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Containment Procedure Object Catalogue</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 60%;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .header {
+      background: #a00;
+      color: #fff;
+      padding: 30px;
+      min-height: 70px;
+      border-bottom: #666 3px solid;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .header img.header-image {
+      width: 112px;
+      height: auto;
+      margin-right: 20px;
+      object-fit: contain;
+      position: absolute;
+      left: 200px;
+    }
+
+    .header-text {
+      text-align: center;
+    }
+
+    .header-text h1 {
+      text-transform: uppercase;
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .header-text h2 {
+      font-weight: bold;
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .content {
+      background: #fff;
+      padding: 20px;
+      border: 2px solid #ddd;
+      margin-top: 20px;
+    }
+
+    .description,
+    .list {
+      border: 1px solid #888;
+      padding: 10px;
+      background: #f9f9f9;
+      text-align: left;
+    }
+
+    .footer {
+      clear: both;
+      text-align: center;
+      padding: 10px 0;
+      background: #ddd;
+      border-top: 1px solid #aaa;
+    }
+
+    .intro {
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .column-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .column {
+      width: 45%;
+      /* Adjust width as needed */
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .column li {
+      margin-bottom: 10px;
+    }
+
+    .column a {
+      text-decoration: none;
+      color: #007BFF;
+    }
+
+    .column a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <img src="US.png" alt="Logo" class="header-image">
+    <div class="header-text">
+      <h1>Advanced Containment Procedure Object Catalogue</h1>
+      <h2>Courtesy of the United States Government</h2>
+    </div>
+  </div>
+  <div class="container">
+    <div class="content">
+      <div class="intro">
+        <h2>HOME</h2>
+      </div>
+      <div class="description">
+        <h4>Welcome,</h4>
+        <p>This is the central page of the ACPOC. Below this paragraph is a list of multiple anomalous and/or
+          potentially dangerous objects that are being contained within a military compound in <b>(CLASSIFIED LOCATION)</b>.
+          These items have been cataloged on paper since 1939, and ever since the invention of the home computing
+          machine in 1953, their descriptive files and containment procedures have been transferred to the internet.
+          Some items on this list require higher clearance to access and read than others.</p>
+        </div>
+      </div>
+    </div>
+        <div class="footer">
+            <p>The official national website dedicated to cataloguing various anomalous and </p>
+            <p>classified samples held by the United States government.</p>
+            <a href="https://acpoc.github.io/ACPOC-Object-156/home">Home Page</a>
+        </div>
+    </div>
+</body>
+</html>
 
